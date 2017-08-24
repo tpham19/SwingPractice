@@ -15,9 +15,9 @@ public class MainFrame extends JFrame {
 
 	public MainFrame(String title) {
 		super(title);
-		// Set layout manager
+		// Sets layout manager
 		setLayout(new BorderLayout());
-		// Create Swing Component
+		// Creates Swing Component
 		JTextArea textArea = new JTextArea();
 		detailsPanel = new DetailsPanel();
 		detailsPanel.addDetailListener(new DetailListener() {
